@@ -1,0 +1,16 @@
+### GET request to example server
+GET http://localhost:3000/
+###
+
+### POST Register user
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "first_name": "Gamal",
+  "last_name": "Akbar",
+  "email" : "gamaltn@gmail.com",
+  "password" : "a234564a"
+}
+
+###
